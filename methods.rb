@@ -3,7 +3,7 @@ def greet_programmer()
     puts "Hello, programmer!"
 end
 
-def greet(name="Naureen")
+def greet(name)
     puts "Hello, #{name}!"
 end
 
@@ -17,7 +17,7 @@ end
 
 def halve(number)
     if ( number.is_a? Numeric) 
-        number / 2; 
+        number/2; 
     else
         nil
     end
